@@ -225,7 +225,7 @@ header .mobile {
   #sign-up-section {
     align-items: center;
     justify-content: center;
-    height: 35rem;
+    height: 30rem;
   }
 
   #sign-up-cta {
@@ -282,7 +282,7 @@ header .mobile {
 
 .feature {
   flex: 1;
-  height: 36rem;
+  height: 85%;
   padding: 2rem;
   margin: 0px 1.25rem;
   background-color: white;
@@ -295,9 +295,7 @@ header .mobile {
 }
 
 .feature .content {
-  width: 35.125rem;
-  padding: 0 1rem 0 1.7rem;
-  width: 90%;
+ padding: 2.5rem 5%;
 }
 
 .feature h2 {
@@ -328,7 +326,13 @@ header .mobile {
     padding: 1rem;
   }
 
+  .feature .content {
+    padding: 5% 5%;
+    text-align: left;
+   }
+
   .feature h2 {
+    padding-top: 0%;
     font-size: 2rem;
     line-height: 1.3;
   }
@@ -356,16 +360,12 @@ header .mobile {
     background-color: lightgrey;
   }
 
-  .feature .content {
-    padding: 1.25rem 0 1.875rem 0;
-    text-align: center;
-  }
-
   .feature h2 {
     font-family: "Roboto-Regular", sans-serif;
     font-size: 1.125rem;
     font-weight: 600;
     line-height: 1.3;
+    padding-top: 0%;
   }
 
   .feature h3 {
